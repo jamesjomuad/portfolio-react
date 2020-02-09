@@ -1,0 +1,13 @@
+#logos{
+    color: #888888;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+#logos i{
+    min-width: 60px;
+    /* display: block; */
+    margin: 15px;
+}

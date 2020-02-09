@@ -1,0 +1,20 @@
+.award h3{
+    
+}
+.award h4 {
+    font-size: 20px;
+    margin: 15px 0!important;
+}
+.award .card {
+    margin: 0px;
+    background: #fffcf8;
+    border: 1px solid #d8d1c4;
+    box-shadow: 0px 0px 1px #fff inset;
+}
+.award img {
+    max-width: 190px;
+    object-fit: contain;
+}
+.award .card-body {
+    padding: 0px;
+}

@@ -1,0 +1,33 @@
+.card {
+    margin: 15px 30px;
+    background: none;
+    padding: 15px;
+    display: block;
+}
+.card label {
+    float: right;
+    position: relative;
+}
+.card h5 {
+    font-size: 15px;
+    float: left;
+    position: relative;
+}
+.card .progress {
+    border: 3px solid #eee;
+    padding: 1px;
+    background: none;
+    border-radius: 10px;
+    clear: both;
+}
+.card .progress-bar {
+    border-radius: 5px;
+    background-color: #aaa;
+}
+
+.card:hover .progress {
+    border-color: #ff8049;
+}
+.card:hover .progress .progress-bar {
+    background-color: #ff4d00;
+}

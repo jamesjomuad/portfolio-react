@@ -1,0 +1,24 @@
+#intro {
+    text-align: center;
+    font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif,'Apple Color Emoji';
+    margin-bottom: 100px;
+}
+#intro h1 {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+#intro h1>span {
+    border-style: dashed;
+    border-color: #fff;
+    border-spacing: 15px;
+    display: block;
+    padding: 30px;
+}
+#intro h1>span>span {
+    color: #fff;
+}
+#intro strong {
+    color: #aaa;
+    font-size: 20px;
+    font-weight: 100;
+}

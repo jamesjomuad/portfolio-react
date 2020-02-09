@@ -1,0 +1,26 @@
+#cardList {}
+#cardList::before {
+    content: "";
+    position: absolute;
+    background: #FFBC24;
+    padding: 4px;
+    height: 89.333%;
+    margin-left: -54px;
+    border-radius: 20px;
+}
+#cardList li {
+    list-style: none;
+    position: relative;
+}
+#cardList li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    padding: 10px;
+    background: #FFBC24;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -59px;
+    margin-top: -20px;
+}

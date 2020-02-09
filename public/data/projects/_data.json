@@ -1,0 +1,301 @@
+[
+    {
+        "title": "Aero Marketing Solutions",
+        "tags": [
+            "Octobercms",
+            "JQuery",
+            "SSH",
+            "Lightsail",
+            "Webmin",
+            "MDB Bootstrap"
+        ],
+        "description": "<p>Started from MDB Bootstrap theme, integrate the template into Octobercms system.</p><p>This website is for a startup company base in New Zealand.</p> <p>Project Url: <a href='http:// aeromarketingsolutions.com/' target='_blank'>aeromarketingsolutions.com</a></p>",
+        "images": [
+            "/data/projects/aeromarketingsolutions/a.jpg",
+            "/data/projects/aeromarketingsolutions/b.jpg",
+            "/data/projects/aeromarketingsolutions/c.jpg",
+            "/data/projects/aeromarketingsolutions/d.jpg"
+        ]
+    },
+    {
+        "title": "Aeroparks",
+        "tags":[
+            "Octobercms",
+            "JQuery",
+            "Lightsail",
+            "Laravel",
+            "Php"
+        ],
+        "description": "<p>A Web App parking management software. Using octobercms that is a laravel base framework. Integrates barcode reading and termal printer.</p> <p>This project is getting me excite along the way cause this kind of framework is what ive been looking for. It gained me knowledge and felt confident. Its principle is like wordpress but in new technology.</p> <p>Project Link:&nbsp;<a href='http://aeroparks.ml/' target='_blank'>http://aeroparks.ml/</a></p>",
+        "images": [
+            "/data/projects/aeroparks/040-Dashboard-Aeroparks.jpg",
+            "/data/projects/aeroparks/041-Notifications-Aeroparks.jpg",
+            "/data/projects/aeroparks/042-Key Movement-Aeroparks.jpg",
+            "/data/projects/aeroparks/044-Bookings-Aeroparks.jpg",
+            "/data/projects/aeroparks/045-Edit Booking-Aeroparks.jpg",
+            "/data/projects/aeroparks/046-Booking Calendar-Aeroparks.jpg",
+            "/data/projects/aeroparks/047-Manage Car Rents-Aeroparks.jpg",
+            "/data/projects/aeroparks/048-Manage Car Rents-Aeroparks.jpg",
+            "/data/projects/aeroparks/049-Manage Products-Aeroparks.jpg",
+            "/data/projects/aeroparks/050-Bay Reports-Aeroparks.jpg",
+            "/data/projects/aeroparks/051-Insights-Aeroparks.jpg",
+            "/data/projects/aeroparks/052-Revenue-Aeroparks.jpg",
+            "/data/projects/aeroparks/053-Settings-Aeroparks.jpg",
+            "/data/projects/aeroparks/054-Signin-CMS-Aeroparks.jpg",
+            "/data/projects/aeroparks/055-Media-Aeroparks.jpg",
+            "/data/projects/aeroparks/056-Manage Customers-Aeroparks.jpg"
+        ]
+    },
+    {
+        "title": "Slyce Gateway",
+        "tags": [
+            "Laravel",
+            "SQL",
+            "JQuery",
+            "Javascript",
+            "AWS",
+            "GIT"
+        ],
+        "description": "<p>SLYCE Gateway is a dashboard interface that provides merchants with payment gateway access. This web application will enable users to run sales and refunds, view reports, and use several other ancillary tools.</p> <strong>Role & Responsibilities</strong> <ul> <li>Domain name setup</li> <li>Server Monitoring</li> <li>Server Setup</li> <li>Backend PHP/Laravel</li> <li>SQL Queries</li> <li>DB/Schema Structure</li> <li>Front-end Bootstrap, Javascript/JQuery</li> <li>Aws SES Setup</li> <li>Aws S3 Setup</li> <li>Git</li> </ul> <p>Project URL: <a href='https://www.slycegateway.com' target='_blank'>www.slycegateway.com</a></p>",
+        "images": [
+            "/data/projects/slycegateway/home.png",
+            "/data/projects/slycegateway/Customers.png",
+            "/data/projects/slycegateway/Settings.png",
+            "/data/projects/slycegateway/Subscription.png",
+            "/data/projects/slycegateway/Support.png",
+            "/data/projects/slycegateway/Tasks.png",
+            "/data/projects/slycegateway/Invoice.png",
+            "/data/projects/slycegateway/Overview.png",
+            "/data/projects/slycegateway/Payplans.png",
+            "/data/projects/slycegateway/Products.png",
+            "/data/projects/slycegateway/Users.png",
+            "/data/projects/slycegateway/Invoice%20-%20step%202.png",
+            "/data/projects/slycegateway/Invoice%20-%20step%203.png",
+            "/data/projects/slycegateway/Quick%20Sale%20Payment.png",
+            "/data/projects/slycegateway/Quick%20Sale.png",
+            "/data/projects/slycegateway/Refund%20-%20Void.png",
+            "/data/projects/slycegateway/Reports%20-%20ACH%20Summary.png",
+            "/data/projects/slycegateway/Reports%20-%20DeclineError.png",
+            "/data/projects/slycegateway/Reports%20-%20Transactions.png",
+            "/data/projects/slycegateway/Text%20Payments.png",
+            "/data/projects/slycegateway/User%20-%20edit.png"
+        ]
+    },
+    {
+        "title": "Email Invoice",
+        "tags": [
+            "Laravel",
+            "Rest api",
+            "SQL",
+            "JQuery",
+            "Javascript",
+            "AWS",
+            "GIT"
+        ],
+        "description": "<p>A Restful api service that create and send electronic invoices with pdf attachment & send secured link to customers. Customize with just a few clicks and get paid faster using payment page.</p><p>Project URL: <a href='https://email-invoice.com/' target='_blank'>email-invoice.com</a></p>",
+        "images": [
+            "/data/projects/email-invoice/home.png",
+            "/data/projects/email-invoice/invoice.png"
+        ]
+    },
+    {
+        "title": "Slyce Global",
+        "tags": [
+            "Laravel",
+            "Angular",
+            "SQL",
+            "JQuery",
+            "Javascript",
+            "AWS",
+            "GIT"
+        ],
+        "description": "A web application for managing merchant and customer transactions. Derived from Slyce Gateway. This is an Angular project using. But this project was put onhold without clear reasons from our client.",
+        "images": [
+            "/data/projects/slyce-global/VirtualTerminal.png",
+            "/data/projects/slyce-global/Customers.png",
+            "/data/projects/slyce-global/home.png",
+            "/data/projects/slyce-global/Invoice%20-%20Archive.png",
+            "/data/projects/slyce-global/Invoice.png",
+            "/data/projects/slyce-global/Transactions.png"
+        ]
+    },
+    {
+        "title": "Kusina Uno",
+        "description": "Before this restaurant was opened, I was responsible for its logo design and all other restaurant graphics material. This was one of my successful job i've done during my after graduate in college.",
+        "images": [
+            "/data/projects/kusina-uno/menu-front.jpg",
+            "/data/projects/kusina-uno/menu-back.jpg"
+        ]
+    },
+    {
+        "title": "Kids Karate Perth",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images": [
+            "/data/projects/kids-karate-perth/http_www.kids-karate-perth.com.au_.jpeg",
+            "/data/projects/kids-karate-perth/http_www.kids-karate-perth.com.au_about-kids-karate-perth_.jpeg",
+            "/data/projects/kids-karate-perth/http_www.kids-karate-perth.com.au_contact_.jpeg",
+            "/data/projects/kids-karate-perth/http_www.kids-karate-perth.com.au_locations_.jpeg",
+            "/data/projects/kids-karate-perth/http_www.kids-karate-perth.com.au_news_.jpeg",
+            "/data/projects/kids-karate-perth/http_www.kids-karate-perth.com.au_products_location_ballajura_.jpeg"
+        ]
+    },
+    {
+        "title": "Salt Property",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images": [
+            "/data/projects/salt-property/http_saltproperty.com.au_.jpg",
+            "/data/projects/salt-property/http_saltproperty.com.au_about_.jpg",
+            "/data/projects/salt-property/http_saltproperty.com.au_blog_.jpeg",
+            "/data/projects/salt-property/http_saltproperty.com.au_contact_.jpg"
+        ]
+    },
+    {
+        "title": "UWA Junior Rugby",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images": [
+            "/data/projects/uwajuniorrugby.com.au/http_www.uwajuniorrugby.com.au_junior-news.jpeg",
+            "/data/projects/uwajuniorrugby.com.au/http_www.uwajuniorrugby.com.au_juniors.jpeg",
+            "/data/projects/uwajuniorrugby.com.au/http_www.uwajuniorrugby.com.au_juniorsrules-and-regulations.jpeg",
+            "/data/projects/uwajuniorrugby.com.au/http_www.uwajuniorrugby.com.au.jpeg"
+        ]
+    },
+    {
+        "title": "Eastperth Safety",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images": [
+            "/data/projects/eastperthsafety.net/http_www.eastperthsafety.net_.jpeg",
+            "/data/projects/eastperthsafety.net/http_www.eastperthsafety.net_about-us_.jpeg",
+            "/data/projects/eastperthsafety.net/http_www.eastperthsafety.net_contact-us_.jpeg",
+            "/data/projects/eastperthsafety.net/http_www.eastperthsafety.net_issues_.jpeg",
+            "/data/projects/eastperthsafety.net/http_www.eastperthsafety.net_links_.jpeg",
+            "/data/projects/eastperthsafety.net/http_www.eastperthsafety.net_news_.jpeg",
+            "/data/projects/eastperthsafety.net/http_www.eastperthsafety.net_publications_.jpeg"
+        ]
+    },
+    {
+        "title": "Thompsons West Perth",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images": [
+            "/data/projects/thompsonswestperth.com.au/http_thompsonswestperth.com.au_.jpeg",
+            "/data/projects/thompsonswestperth.com.au/http_thompsonswestperth.com.au_about-thompsons-of-west-perth_.jpeg",
+            "/data/projects/thompsonswestperth.com.au/http_thompsonswestperth.com.au_adverts-and-offers_.jpeg",
+            "/data/projects/thompsonswestperth.com.au/http_thompsonswestperth.com.au_blog_.jpeg",
+            "/data/projects/thompsonswestperth.com.au/http_thompsonswestperth.com.au_collections_.jpeg",
+            "/data/projects/thompsonswestperth.com.au/http_thompsonswestperth.com.au_facebook_.jpeg",
+            "/data/projects/thompsonswestperth.com.au/http_thompsonswestperth.com.au_twitter_.jpeg",
+            "/data/projects/thompsonswestperth.com.au/http_thompsonswestperth.com.au_where-to-find-us_.jpeg"
+        ]
+    },
+    {
+        "title": "Ink Out",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images": ["/data/projects/inkout/http_www.inkout.com.au_.jpeg"]
+    },
+    {
+        "title": "Limones",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images": ["/data/projects/limones.com.au/capture.jpg"]
+    },
+    {
+        "title": "Asian Mining and Energy Investment (AMEI)",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images": [
+            "/data/projects/ameiconference.com/timthumb-115.jpg",
+            "/data/projects/ameiconference.com/timthumb-212.jpg",
+            "/data/projects/ameiconference.com/timthumb-310.jpg",
+            "/data/projects/ameiconference.com/timthumb-410.jpg",
+            "/data/projects/ameiconference.com/timthumb-58.jpg",
+            "/data/projects/ameiconference.com/timthumb-66.jpg",
+            "/data/projects/ameiconference.com/timthumb-76.jpg"
+        ]
+    },
+    {
+        "title": "Inteliprint",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "Javascript",
+            "GIT"
+        ],
+        "images":[
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_about-us_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_about-us_frequently-asked-questions_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_about-us_testimonials_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_blog_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_page_2_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_printers-newcastle_25-print-ready-tips_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_printers-newcastle_sra-paper-sizes-commercial-printing_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_printers-newcastle_working-with-newcastle-small-business_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_products_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_refund-policy_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_rezourced_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_services_.jpeg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_services_digital-printing_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_services_finishing_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_services_graphic-design_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_services_photocopying_.jpg",
+            "/data/projects/inteliprint/http_www.inteliprint.com.au_services_scanning_.jpg"
+        ]
+    },
+    {
+        "title": "Biogas Technology",
+        "images": [
+            "/data/projects/biogas/P_20160330_142544.jpg",
+            "/data/projects/biogas/DSC00068.jpg",
+            "/data/projects/biogas/DSC00078.jpg",
+            "/data/projects/biogas/P_20160330_142501_1_p.jpg",
+            "/data/projects/biogas/P_20160330_142704.jpg",
+            "/data/projects/biogas/P_20160330_143802.jpg",
+            "/data/projects/biogas/P_20160331_091902_1_p.jpg",
+            "/data/projects/biogas/side-a.jpg",
+            "/data/projects/biogas/side-b.jpg",
+            "/data/projects/biogas/side-c.jpg",
+            "/data/projects/biogas/side-d.jpg"
+        ]
+    },
+    {
+        "title": "Photography",
+        "images": ["/data/projects/photography/ginatilan-aerial-view.jpg"]
+    }
+]
