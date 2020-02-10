@@ -1,12 +1,12 @@
-#cardList {}
 #cardList::before {
     content: "";
     position: absolute;
     background: #FFBC24;
     padding: 4px;
-    height: 89.333%;
+    height: 87.333%;
     margin-left: -54px;
     border-radius: 20px;
+    top: 115px;
 }
 #cardList li {
     list-style: none;
@@ -21,6 +21,6 @@
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: -59px;
+    left: -60px;
     margin-top: -20px;
 }

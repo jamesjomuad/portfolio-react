@@ -31,7 +31,7 @@ export default class Award extends React.Component{
             {
               this.state.projects.map((value, index) => {
                 let image = (typeof value.images == 'object') ? value.images[0] : false;
-                return <ProjectCard key={index} id={index} title={value.title} image={image}/>
+                return <ProjectCard key={index} id={index} title={value.title} image={image} sale={value.sale}/>
               })
             }
           </div>

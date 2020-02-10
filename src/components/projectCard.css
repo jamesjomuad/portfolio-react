@@ -1,5 +1,6 @@
 .project {
     min-height: 250px;
+    overflow: hidden;
 }
 .project .card {
     width: 100%;
@@ -12,6 +13,7 @@
     height: 200px;
     width: 100%;
     object-fit: cover;
+    object-position: top;
 }
 
 
@@ -32,4 +34,14 @@
     color: orange;
     font-size: 20px;
     font-weight: 700;
+}
+.project .sale {
+    position: absolute;
+    z-index: 10;
+    background: #D55534;
+    padding: 5px 32px;
+    transform: rotate(-45deg);
+    color: #fff;
+    top: 26px;
+    left: -24px;
 }

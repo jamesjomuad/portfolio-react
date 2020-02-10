@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import Parser from 'html-react-parser';
+import Loader from '../components/loader';
+import './project.css';
 
 export default class Project extends React.Component{
 
@@ -19,21 +21,52 @@ export default class Project extends React.Component{
 
   render() {
     let project = this.state.project;
+    
+    if(project){
+      return (
+        <>
+          <header className="animated fadeInDown">
+            <h1>{project.title}</h1>
+          </header>
 
-    if(project)
-    return (
-      <>
-        <header className="animated fadeInDown">
-          <h1>{project.title}</h1>
-        </header>
+          <div className="content animated fadeInUp">
+            {(typeof project.url == 'string') ? (
+              <>
+                <p><b>Project URL</b>: <a href={project.url} target='_blank'>{project.url}</a></p>
+              </>
+            ) : ''}
 
-        <div className="content animated fadeInUp">
-          {Parser(project.description)}
-        </div>
-      </>
-    );
+            {(project.description) ? Parser(project.description):''}
 
-    return <h2>Loading...</h2>
+            <div className="spacing-2"></div>
+            { (project.tags instanceof Array) ? (
+              <>
+                <h2>Tags:</h2>
+                <div className="spacing-1"></div>
+                {
+                  project.tags.map((value, index) => {
+                    return <span className="badge badge-primary mr-2">{value}</span>
+                  })
+                }
+              </>
+            ) : ''}
+
+            <div className="spacing-4"></div>
+
+            <div className="gallery row">
+              {
+                project.images.map((value, index) => {
+                  return <div className="col-md-3"><a href={value} className="fancybox" data-fancybox="gallery"><img src={value} className="rounded mx-auto d-block" alt={value}/></a></div>
+                })
+              }
+            </div>
+            
+          </div>
+        </>
+      );
+    }
+
+    return <Loader/>
   }
 
 }

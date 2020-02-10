@@ -7,7 +7,7 @@ html,body,#root,#root .container-fluid,#root .container-fluid>.row{height:100%}
 
 aside{height:100%;padding:0!important;}
 aside #sidebar {
-  background: #d51212;
+  background: #86B8B7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,7 @@ aside #brand{padding:50px 0 25px}
 aside #brand img {
   max-width: 180px;
   border-radius: 50%;
-  border: 8px solid #ff2727;
+  border: 8px solid #e2dbbe;
 }
 aside .btn-group-vertical{width:100%}
 aside #nav .btn-group-vertical .btn{background:none;border:none;box-shadow:none;color:#ffffff;font-weight:700}

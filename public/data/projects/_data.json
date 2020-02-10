@@ -1,5 +1,92 @@
 [
     {
+        "title": "69clothing",
+        "tags": [
+            "Wordpress",
+            "eCommerce",
+            "Woocomerce"
+        ],
+        "description": "<p>This project is for SALE. Contact me to get this website.</p><p>The theme is packed with lots of pre-designed pages to display your main services, your store’s range, its gallery and its news, etc. It features two styles of Homepage – fullwidth and boxed, as well as boxed and fullwidth Store pages.</p><ul><li>4 beautiful homepage layouts</li> <li>Outstanding Collections & Gallery premade pages</li> <li>Advanced Contact Forms</li> <li>Full Woocommerce store compatibility</li></ul><p>More details here: <a href='https://themeforest.net/item/69-clothing-brand-store-fashion-boutique/20323909' target='_blank'>69clothing</a></p>",
+        "images": [
+            "/data/projects/69clothing/home.jpg",
+            "/data/projects/69clothing/collections.jpg",
+            "/data/projects/69clothing/about.jpg",
+            "/data/projects/69clothing/contact.jpg"
+        ],
+        "sale": true
+    },
+    {
+        "title": "Kusina Uno Website",
+        "tags": [
+            "Wordpress",
+            "JQuery",
+            "eCommerce",
+            "Woocomerce"
+        ],
+        "description": "<p>A Wordpress project with the following full and licensed plugins:<ul> <li>All In One Wp Migration</li> <li>All In One Wp Migration Unlimited Extension</li> <li>Js Composer</li> <li>Mailchimp For Wp</li> <li>Ninja Forms</li> <li>Regenerate Thumbnails</li> <li>Restaurant Reservations</li> <li>Revslider</li> <li>Tokoo Vitamins</li> <li>Widget Importer Exporter</li> <li>Woocommerce</li> <li>Wp Mail Smtp Pro</li> <li>Wp Sweep</li> <ul /></p>",
+        "images": [
+            "/data/projects/kusina-uno-website/077 - Kusina Uno – Home of the Best Pochero - kusina.bookrr.io.jpg",
+            "/data/projects/kusina-uno-website/078 - Blog – Kusina Uno - kusina.bookrr.io.jpg",
+            "/data/projects/kusina-uno-website/079 - Our Menu List – Kusina Uno - kusina.bookrr.io.jpg",
+            "/data/projects/kusina-uno-website/080 - Reviews – Kusina Uno - kusina.bookrr.io.jpg",
+            "/data/projects/kusina-uno-website/081 - About – Kusina Uno - kusina.bookrr.io.jpg",
+            "/data/projects/kusina-uno-website/082 - Contact Us – Kusina Uno - kusina.bookrr.io.jpg"
+        ]
+    },
+    {
+        "title": "Ciirus",
+        "tags": [
+            "JQuery",
+            "Sass",
+            "Ciirus App",
+            "Photoshop"
+        ],
+        "description": "<p>2 years in this Company, I was able to solve lot of issues on the frondend. By developing useful jQuery plugins to help build frontend easily.</p><p>Help fellow developers to achive goals and we make it a Day.</p>",
+        "images": [
+            "/data/projects/ciirus/home_3.jpg",
+            "/data/projects/ciirus/home.jpg",
+            "/data/projects/ciirus/home_1.jpg",
+            "/data/projects/ciirus/home_2.jpg",
+            "/data/projects/ciirus/home_4.jpg",
+            "/data/projects/ciirus/home_5.jpg",
+            "/data/projects/ciirus/search.jpg",
+            "/data/projects/ciirus/search_1.jpg",
+            "/data/projects/ciirus/search_2.jpg",
+            "/data/projects/ciirus/search_3.jpg",
+            "/data/projects/ciirus/search_4.jpg",
+            "/data/projects/ciirus/search_5.jpg",
+            "/data/projects/ciirus/services.jpg",
+            "/data/projects/ciirus/services_1.jpg",
+            "/data/projects/ciirus/about.jpg",
+            "/data/projects/ciirus/about_1.jpg",
+            "/data/projects/ciirus/about_2.jpg",
+            "/data/projects/ciirus/blog.jpg",
+            "/data/projects/ciirus/blog_1.jpg",
+            "/data/projects/ciirus/contact.jpg",
+            "/data/projects/ciirus/contact_1.jpg",
+            "/data/projects/ciirus/contact_2.jpg",
+            "/data/projects/ciirus/contact_3.jpg",
+            "/data/projects/ciirus/contact_4.jpg",
+            "/data/projects/ciirus/details.jpg",
+            "/data/projects/ciirus/details_1.jpg",
+            "/data/projects/ciirus/details_2.jpg"
+        ]
+    },
+    {
+        "title": "Angular Portfolio",
+        "tags": [
+            "Angular",
+            "JQuery",
+            "MDB Bootstrap",
+            "TypeScript",
+            "Webpack"
+        ],
+        "description": "<p>An Angular 8 web application building while learning angualarjs.</p>",
+        "images": [
+            "/data/projects/angular-portfolio/onepage.jpg"
+        ]
+    },
+    {
         "title": "Aero Marketing Solutions",
         "tags": [
             "Octobercms",
@@ -26,7 +113,8 @@
             "Laravel",
             "Php"
         ],
-        "description": "<p>A Web App parking management software. Using octobercms that is a laravel base framework. Integrates barcode reading and termal printer.</p> <p>This project is getting me excite along the way cause this kind of framework is what ive been looking for. It gained me knowledge and felt confident. Its principle is like wordpress but in new technology.</p> <p>Project Link:&nbsp;<a href='http://aeroparks.ml/' target='_blank'>http://aeroparks.ml/</a></p>",
+        "url": "https://aeroparks.bookrr.io/",
+        "description": "<p>A Web App parking management software. Using octobercms that is a laravel base framework. Integrates barcode reading and termal printer.</p> <p>This project is getting me excite along the way cause this kind of framework is what ive been looking for. It gained me knowledge and felt confident. Its principle is like wordpress but in new technology.</p>",
         "images": [
             "/data/projects/aeroparks/040-Dashboard-Aeroparks.jpg",
             "/data/projects/aeroparks/041-Notifications-Aeroparks.jpg",
@@ -56,7 +144,8 @@
             "AWS",
             "GIT"
         ],
-        "description": "<p>SLYCE Gateway is a dashboard interface that provides merchants with payment gateway access. This web application will enable users to run sales and refunds, view reports, and use several other ancillary tools.</p> <strong>Role & Responsibilities</strong> <ul> <li>Domain name setup</li> <li>Server Monitoring</li> <li>Server Setup</li> <li>Backend PHP/Laravel</li> <li>SQL Queries</li> <li>DB/Schema Structure</li> <li>Front-end Bootstrap, Javascript/JQuery</li> <li>Aws SES Setup</li> <li>Aws S3 Setup</li> <li>Git</li> </ul> <p>Project URL: <a href='https://www.slycegateway.com' target='_blank'>www.slycegateway.com</a></p>",
+        "url": "https://www.slycegateway.com",
+        "description": "<p>SLYCE Gateway has a dashboard interface that provides merchants to control payment gateway access. This web application will enable users to run sales and refunds, view reports, and use several other ancillary tools.</p> <strong>Role & Responsibilities</strong> <ul> <li>Domain name setup</li> <li>Server Monitoring</li> <li>Server Setup</li> <li>Backend PHP/Laravel</li> <li>SQL Queries</li> <li>DB/Schema Structure</li> <li>Front-end Bootstrap, Javascript/JQuery</li> <li>Aws SES Setup</li> <li>Aws S3 Setup</li> <li>Git</li> </ul>",
         "images": [
             "/data/projects/slycegateway/home.png",
             "/data/projects/slycegateway/Customers.png",
@@ -120,7 +209,7 @@
         ]
     },
     {
-        "title": "Kusina Uno",
+        "title": "Kusina Uno Menu",
         "description": "Before this restaurant was opened, I was responsible for its logo design and all other restaurant graphics material. This was one of my successful job i've done during my after graduate in college.",
         "images": [
             "/data/projects/kusina-uno/menu-front.jpg",
@@ -129,6 +218,8 @@
     },
     {
         "title": "Kids Karate Perth",
+        "description": "<p>A custom Wordpress Ecommerce website that accept online and offline payments. With a custom registration form for signing up members.</p><p>This is the main project which was duplicated for other business branches like <a href='https://www.kangakarate.com.au/' target='_blank'>kangakarate.com.au</a>.</p>",
+        "url": "https://kids-karate-perth.com.au/",
         "tags": [
             "Wordpress",
             "JQuery",
@@ -293,9 +384,5 @@
             "/data/projects/biogas/side-c.jpg",
             "/data/projects/biogas/side-d.jpg"
         ]
-    },
-    {
-        "title": "Photography",
-        "images": ["/data/projects/photography/ginatilan-aerial-view.jpg"]
     }
 ]
