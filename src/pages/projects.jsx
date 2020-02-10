@@ -13,7 +13,7 @@ export default class Award extends React.Component{
   }
 
   componentDidMount(){
-    axios.get('/data/projects/_data.json')
+    axios.get('/data/projects/data.json')
     .then(res => {
         this.setState({ projects:res.data,isLoading: false });
     });

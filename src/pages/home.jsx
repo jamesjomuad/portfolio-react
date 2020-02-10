@@ -3,14 +3,6 @@ import './home.css';
 
 export default class Skills extends React.Component { 
 
-  componentDidMount() {
-
-  }
-
-  componentDidUpdate(){
-    console.log('componentDidUpdate')
-  }
-
   render() {
     return (
       <>

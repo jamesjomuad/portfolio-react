@@ -16,7 +16,6 @@ export default class Experience extends React.Component {
     axios.get('/data/experience.json')
     .then(res => {
         this.setState({ experience:res.data,isLoading: false });
-        console.log(this.state.experience);
     });
   }
 

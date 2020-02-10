@@ -14,7 +14,7 @@ export default class Award extends React.Component{
   }
 
   componentDidMount(){
-    axios.get('/data/awards/_data.json')
+    axios.get('/data/awards/data.json')
     .then(res => {
         this.setState({ awards:res.data,isLoading: false });
     });

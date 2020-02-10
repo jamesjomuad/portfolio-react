@@ -12,7 +12,7 @@ export default class Project extends React.Component{
   }
 
   componentDidMount(){
-    axios.get('/data/projects/_data.json')
+    axios.get('/data/projects/data.json')
     .then(res => {
       const { id } = this.props.match.params;
       this.setState({ project:res.data[id],isLoading: false });
