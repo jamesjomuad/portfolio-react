@@ -6,7 +6,7 @@ export default class proggressCard extends React.Component {
   render() {
     return (
       <>
-        <div className="card">
+        <div className="card points">
             <h5>{this.props.title}</h5>
             <label>{this.props.score}</label>
             <div className="progress">

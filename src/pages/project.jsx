@@ -29,10 +29,10 @@ export default class Project extends React.Component{
             <h1>{project.title}</h1>
           </header>
 
-          <div className="content animated fadeInUp">
+          <div id="projects" className="content animated fadeInUp">
             {(typeof project.url == 'string') ? (
               <>
-                <p><b>Project URL</b>: <a href={project.url} target='_blank'>{project.url}</a></p>
+                <p><b>Project URL</b>: <a href={project.url} rel="noopener noreferrer" target='_blank'>{project.url}</a></p>
               </>
             ) : ''}
 
@@ -40,7 +40,7 @@ export default class Project extends React.Component{
 
             <div className="spacing-2"></div>
             { (project.tags instanceof Array) ? (
-              <>
+              <> 
                 <h2>Tags:</h2>
                 <div className="spacing-1"></div>
                 {

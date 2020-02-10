@@ -1,0 +1,44 @@
+.card {
+    border: 1px solid #696d72;
+    border-color: rgba(0, 0, 0, 0.2);
+    background: #f3ede8;
+}
+.card .point {
+    position: absolute;
+    padding: 5px;
+    background: #FFFEF6;
+    left: -73px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #b2b2b2;
+}
+
+
+.arrow_box:after, .arrow_box:before {
+    right: 100%;
+    top: 80px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(243, 237, 232, 0);
+    border-right-color: #F3EDE8;
+    border-width: 11px;
+    margin-top: -54px;
+}
+.arrow_box:before {
+    border-color: rgba(194, 190, 186, 0);
+    border-right-color: #C2BEBA;
+    border-width:13px;
+    margin-top: -56px;
+}

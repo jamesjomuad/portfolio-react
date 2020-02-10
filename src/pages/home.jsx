@@ -28,7 +28,7 @@ export default class Skills extends React.Component {
 
           <p>With a strong core skills in Nodejs, Laravel, Octobercms, and Wordpress. Developing applications to contribute to organisations betterment.</p>
 
-          <p>Wanna Know Whats My Secret?? <b>Press CTRL+A</b> </p>
+          <p>Wanna Know My Secret?? <b>Press CTRL+A</b> </p>
         </div>
 
         <div className="spacing-2"></div>

@@ -80,3 +80,18 @@ main h2 {
   from{transform:rotate(0deg)}
   to{transform:rotate(360deg)}
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  .content{padding:0px 40px;}
+}
+  
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+
+}
+  
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+
+}

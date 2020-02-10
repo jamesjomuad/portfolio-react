@@ -13,7 +13,7 @@ export default class ProjectCard extends React.Component {
             {this.props.image ? <img className="card-img-top" src={this.props.image} alt={this.props.title}/>:''}
             <div className="card-body animated fadeIn">
               <div className="d-flex justify-content-center align-items-center" style={{'height':'100%'}}>
-                {this.props.title ? <Link className="card-title" to={'/project/'+this.props.id}>{this.props.title}</Link> : ''}
+                {this.props.title ? <Link className="card-title" to={'/project/'+this.props.id} rel="noopener noreferrer">{this.props.title}</Link> : ''}
               </div>
             </div>
           </div>

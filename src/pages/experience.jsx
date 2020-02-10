@@ -1,30 +1,47 @@
 import React from 'react';
+import axios from 'axios';
+import Loader from '../components/loader';
+import './experience.css';
+import Card from '../components/expCard';
+
 
 export default class Experience extends React.Component { 
 
+  state = {
+    isLoading: true,
+    experience: []
+  };
+
   componentDidMount() {
-
+    axios.get('/data/experience.json')
+    .then(res => {
+        this.setState({ experience:res.data,isLoading: false });
+        console.log(this.state.experience);
+    });
   }
 
-  componentDidUpdate(){
-    console.log('componentDidUpdate')
-  }
-
-  render() {
+  render() {   
+    if(!this.state.isLoading)
     return (
       <>
         <header className="animated fadeInDown">
           <h1>EXPERIENCE</h1>
         </header>
 
-        <div className="content fadeInUp animated">
-          <p>Eiusmod sunt adipisicing ut sit sit quis ullamco. Sunt officia velit dolor sint est anim ipsum ullamco aliquip quis esse eu deserunt. Sunt exercitation velit pariatur deserunt duis Lorem officia incididunt sunt tempor eiusmod. Duis sint voluptate excepteur veniam officia mollit. Duis ullamco id magna culpa minim tempor velit cupidatat ad ad. Lorem nulla culpa tempor voluptate pariatur id do. Et ad sit consequat non sit incididunt veniam occaecat velit veniam irure consequat tempor ut.</p>
+        <div className="spacing-3"></div>
 
-          <p>
-          Voluptate anim esse esse tempor labore eiusmod excepteur Lorem incididunt nisi. In cillum dolor cillum minim magna velit elit consequat sint ex. Commodo amet et dolor tempor labore elit consectetur ullamco dolore est culpa veniam. Voluptate deserunt dolore eu consequat minim fugiat officia voluptate pariatur consectetur sint cillum. Anim id duis duis excepteur deserunt nulla ex veniam deserunt. Reprehenderit tempor consectetur consequat incididunt. Do ipsum culpa ad non ullamco.
-          </p>
+        <div className="content fadeInUp animated">
+          <div id="timeline">
+            {
+              this.state.experience.map((value, index) => {
+                return <Card key={index} value={value}/>
+              })
+            }
+          </div>
         </div>
       </>
     );
+
+    return <Loader/>;
   }
 }
