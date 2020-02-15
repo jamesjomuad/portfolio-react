@@ -1,0 +1,167 @@
+{
+    "skills": [
+        {
+            "title":"Illustrator",
+            "score":"90%",
+            "category": "Design Skills"
+        },
+        {
+            "title":"Photoshop",
+            "score":"100%",
+            "category": "Design Skills"
+        },
+        {
+            "title":"UI/UX Design Skills",
+            "score":"90%",
+            "category": "Design Skills"
+        },
+        {
+            "title":"HTML",
+            "score":"100%",
+            "category": "Languages"
+        },
+        {
+            "title":"CSS",
+            "score":"100%",
+            "category": "Languages"
+        },
+        {
+            "title":"NodeJS",
+            "score":"90%",
+            "category": "Languages"
+        },
+        {
+            "title":"Javascript",
+            "score":"99%",
+            "category": "Languages"
+        },
+        {
+            "title":"PHP",
+            "score":"95%",
+            "category": "Languages"
+        },
+        {
+            "title":"SQL",
+            "score":"90%",
+            "category": "Languages"
+        },
+        {
+            "title":"MongoDB",
+            "score":"80%",
+            "category": "Languages"
+        },
+        {
+            "title":"React",
+            "score":"80%",
+            "category": "Libraries/Frameworks"
+        },
+        {
+            "title":"Vue",
+            "score":"85%",
+            "category": "Libraries/Frameworks"
+        },
+        {
+            "title":"Angular",
+            "score":"90%",
+            "category": "Libraries/Frameworks"
+        },
+        {
+            "title":"Electron",
+            "score":"75%",
+            "category": "Libraries/Frameworks"
+        },
+        {
+            "title":"Laravel",
+            "score":"95%",
+            "category": "Libraries/Frameworks"
+        },
+        {
+            "title":"Wordpress",
+            "score":"90%",
+            "category": "Libraries/Frameworks"
+        },
+        {
+            "title":"Octobercms",
+            "score":"100%",
+            "category": "Libraries/Frameworks"
+        },
+        {
+            "title":"jQuery",
+            "score":"100%",
+            "category": "Libraries/Frameworks"
+        },
+        {
+            "title":"JSON",
+            "score":"100%",
+            "category": "Others"
+        },
+        {
+            "title":"XML",
+            "score":"95%",
+            "category": "Others"
+        },
+        {
+            "title":"CPanel",
+            "score":"95%",
+            "category": "Others"
+        },
+        {
+            "title":"Linux",
+            "score":"85%",
+            "category": "Others"
+        },
+        {
+            "title":"Apache",
+            "score":"100%",
+            "category": "Others"
+        },
+        {
+            "title":"DNS",
+            "score":"100%",
+            "category": "Others"
+        },
+        {
+            "title":"AWS",
+            "score":"75%",
+            "category": "Others"
+        },
+        {
+            "title":"SEO",
+            "score":"75%",
+            "category": "Others"
+        },
+        {
+            "title":"SSH",
+            "score":"95%",
+            "category": "Others"
+        }
+    ],
+    "technologies": [
+        "<i className='devicon-html5-plain'></i>",
+        "<i className='devicon-css3-plain'></i>",
+        "<i className='devicon-javascript-plain'></i>",
+        "<i className='devicon-vuejs-plain'></i>",
+        "<i className='devicon-react-original'></i>",
+        "<i className='devicon-angularjs-plain'></i>",
+        "<i className='devicon-jquery-plain'></i>",
+        "<i className='devicon-php-plain'></i>",
+        "<i className='devicon-nodejs-plain'></i>",
+        "<i className='devicon-amazonwebservices-original'></i>",
+        "<i className='devicon-mysql-plain'></i>",
+        "<i className='devicon-laravel-plain'></i>",
+        "<i className='devicon-wordpress-plain'></i>",
+        "<i className='devicon-bootstrap-plain'></i>",
+        "<i className='devicon-git-plain'></i>",
+        "<i className='devicon-less-plain-wordmark'></i>",
+        "<i className='devicon-sass-original'></i>",
+        "<i className='devicon-linux-plain'></i>",
+        "<i className='devicon-typescript-plain'></i>",
+        "<i className='devicon-photoshop-plain'></i>",
+        "<i className='devicon-illustrator-line'></i>",
+        "<i className='devicon-apache-line-wordmark'></i>",
+        "<i className='devicon-php-plain'></i>",
+        "<i className='devicon-slack-plain'></i>",
+        "<i className='devicon-symfony-original'></i>",
+        "<i className='devicon-visualstudio-plain'></i>"
+    ]
+}

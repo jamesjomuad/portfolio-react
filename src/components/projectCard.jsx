@@ -1,8 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import './projectCard.css';
 
-export default class ProjectCard extends React.Component { 
+export default class ProjectCard extends React.Component {
+
+  componentDidMount(){
+    if(window.$)
+    window.$('.lazy').Lazy();
+  }
 
   render() {
     return (
@@ -10,7 +15,11 @@ export default class ProjectCard extends React.Component {
         <div className="project d-flex p-2 col-sm-6 col-md-4">
           {this.props.sale ? <span className="sale">FOR SALE</span> : ''}
           <div className="card p-0">
-            {this.props.image ? <img className="card-img-top" src={this.props.image} alt={this.props.title}/>:''}
+            {
+              (window.$) ? 
+              <img className="card-img-top lazy" data-src={this.props.image} alt={this.props.title}/>
+              : <img className="card-img-top lazy" src={this.props.image} alt={this.props.title}/>
+            }
             <div className="card-body animated fadeIn">
               <div className="d-flex justify-content-center align-items-center" style={{'height':'100%'}}>
                 {this.props.title ? <Link className="card-title" to={'/project/'+this.props.id} rel="noopener noreferrer">{this.props.title}</Link> : ''}
@@ -18,9 +27,8 @@ export default class ProjectCard extends React.Component {
             </div>
           </div>
         </div>
-      </>
+    </>
     );
-    
   }
 
 }

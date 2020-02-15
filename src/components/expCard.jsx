@@ -16,7 +16,7 @@ export default class Exp extends React.Component {
               <br className="clr"/>
               <p className="card-text">{Parser(value.description)}</p>
             </div>
-            <div class="card-footer text-muted text-center">{value.date}</div>
+            <div className="card-footer text-muted text-center">{value.date}</div>
         </div>
       </>
     );

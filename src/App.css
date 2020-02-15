@@ -1,9 +1,10 @@
+html,body,#root,#root .container-fluid,#root .container-fluid>.row{height:100%}
+html {scroll-behavior: smooth;}
+
 .App{text-align:center}
 .App-logo{height:40vmin;pointer-events:none}
 .App-header{background-color:#282c34;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:calc(10px + 2vmin);color:#fff}
 .App-link{color:#61dafb}
-
-html,body,#root,#root .container-fluid,#root .container-fluid>.row{height:100%}
 
 aside{height:100%;padding:0!important;}
 aside #sidebar {
@@ -84,6 +85,27 @@ main h2 {
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
   .content{padding:0px 40px;}
+  main{padding-bottom: 100px!important ;}
+  aside{height: auto;}
+  aside #sidebar {
+    max-width: 100%;
+    padding-bottom: 115px;
+    z-index: 1000;
+  }
+  #mobile-menu {
+    position: fixed;
+    z-index: 1001;
+    padding: 15px 20px;
+    bottom: 20px;
+    width: 93%;
+    background: rgba(48, 48, 48, 0.58);
+    border-radius: 50px;
+    display: flex!important;
+    justify-content: space-between;
+  }
+  #mobile-menu .btn {
+    border-radius: 20px;
+  }
 }
   
 /* Medium devices (desktops, 992px and up) */
@@ -94,4 +116,13 @@ main h2 {
 /* Large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) { 
 
+}
+
+
+#mobile-menu{display: none;}
+.lazy[data-src] {
+  background-image: url(/assets/images/loader.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgba(0, 0, 0, 0);
 }

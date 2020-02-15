@@ -1,38 +1,15 @@
 [
   {
-    "title": "Service Award",
-    "subtitle": "Dedication Service and Commitment",
-    "date": "May 2016",
-    "src": "/data/awards/cert-05-may-2017.jpg"
-  },
-  {
-    "title": "Service Award",
-    "subtitle": "Dedication Service and Commitment",
-    "date": "May 2017",
-    "src": "/data/awards/cert-05-may-2017.jpg"
-  },
-  {
-    "title": "Certificate of Appreciation",
-    "date": "December 2013",
-    "src": "/data/awards/cert-07-dec-2013.jpg"
-  },
-  {
-    "title": "Certificate of Appreciation",
-    "subtitle": "Introduction to AngularJS 2",
-    "date": "August 2016",
-    "src": "/data/awards/cert-20-aug-2016.jpg"
+    "title": "Certificate of Completion",
+    "subtitle": "Learn and Understand NodeJS",
+    "src": "/data/awards/UC-nodejs-F8ULDF7S.jpg",
+    "date": "March 15, 2017"
   },
   {
     "title": "Certificate of Completion",
     "subtitle": "Travel Photography",
     "src": "/data/awards/UC-4EDNUFHG.jpg",
     "date": "September 29, 2017"
-  },
-  {
-    "title": "Certificate of Completion",
-    "subtitle": "Learn and Understand NodeJS",
-    "src": "/data/awards/UC-nodejs-F8ULDF7S.jpg",
-    "date": "March 15, 2017"
   },
   {
     "title": "Certificate of Completion",
@@ -45,5 +22,28 @@
     "subtitle": "Begginer Photoshop to HTML5 and CSS3",
     "src": "/data/awards/UC-W7JPSOB8.jpg",
     "date": "September 29, 2017"
-  }
+  },
+  {
+    "title": "Service Award",
+    "subtitle": "Dedication Service and Commitment",
+    "date": "May 2017",
+    "src": "/data/awards/cert-05-may-2017.jpg"
+  },
+  {
+    "title": "Service Award",
+    "subtitle": "Dedication Service and Commitment",
+    "date": "May 2016",
+    "src": "/data/awards/cert-05-may-2017.jpg"
+  },
+  {
+    "title": "Certificate of Appreciation",
+    "subtitle": "Introduction to AngularJS 2",
+    "date": "August 2016",
+    "src": "/data/awards/cert-20-aug-2016.jpg"
+  },
+  {
+    "title": "Certificate of Appreciation",
+    "date": "December 2013",
+    "src": "/data/awards/cert-07-dec-2013.jpg"
+  }  
 ]

@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectCard from '../components/projectCard';
 import axios from 'axios';
 
-export default class Award extends React.Component{
+export default class Projects extends React.Component{
 
   constructor(props) {
     super(props);

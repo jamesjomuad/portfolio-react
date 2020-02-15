@@ -16,6 +16,8 @@ export default class Project extends React.Component{
     .then(res => {
       const { id } = this.props.match.params;
       this.setState({ project:res.data[id],isLoading: false });
+      if(window.$)
+      window.$('.lazy').Lazy();
     });
   }
 
@@ -45,7 +47,7 @@ export default class Project extends React.Component{
                 <div className="spacing-1"></div>
                 {
                   project.tags.map((value, index) => {
-                    return <span className="badge badge-primary mr-2">{value}</span>
+                    return <span key={index} className="badge badge-primary mr-2">{value}</span>
                   })
                 }
               </>
@@ -56,7 +58,14 @@ export default class Project extends React.Component{
             <div className="gallery row">
               {
                 project.images.map((value, index) => {
-                  return <div className="col-md-3"><a href={value} className="fancybox" data-fancybox="gallery"><img src={value} className="rounded mx-auto d-block" alt={value}/></a></div>
+                  return <div key={index} className="col-md-3">
+                    <a href={value} className="fancybox" data-fancybox="gallery">
+                      {
+                        (window.$) ? <img data-src={value} className="rounded mx-auto d-block lazy" alt={value}/>
+                        : <img src={value} className="rounded mx-auto d-block lazy" alt={value}/>
+                      }
+                    </a>
+                  </div>
                 })
               }
             </div>

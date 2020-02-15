@@ -5,6 +5,7 @@ import './awards.css';
 
 export default class Award extends React.Component{
 
+
   constructor(props) {
     super(props);
     this.state = {
@@ -28,15 +29,23 @@ export default class Award extends React.Component{
         </header>
 
         <div className="content animated fadeInUp">
-          <div className="row">
-            <ul id="cardList" style={{width:'100%'}}>
-              {
-                this.state.awards.map((value, index) => {
-                  return <li><AwardCard key={index} title={value.title} subtitle={value.subtitle} date={value.date} src={value.src}/></li>
-                })
-              }
-            </ul>
-          </div>
+            <div className="row">
+                <ul id="cardList" style={{width:'100%'}}>
+                {
+                    this.state.awards.map((value, index) => {
+                        return <li key={index}>
+                            <AwardCard 
+                            key={index} 
+                            title={value.title} 
+                            subtitle={value.subtitle} 
+                            date={value.date} 
+                            src={value.src}
+                            />
+                        </li>
+                    })
+                }
+                </ul>
+            </div>
         </div>
       </>
     );
