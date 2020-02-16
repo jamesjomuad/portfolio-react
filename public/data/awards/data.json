@@ -1,6 +1,12 @@
 [
   {
     "title": "Certificate of Completion",
+    "subtitle": "Vue JS 2 - The Complete Guide (Vue Router & Vuex)",
+    "src": "/data/awards/UC-d90f5457-8f63-40c1-bc66-148219e72d1b.jpg",
+    "date": "March 15, 2017"
+  },
+  {
+    "title": "Certificate of Completion",
     "subtitle": "Learn and Understand NodeJS",
     "src": "/data/awards/UC-nodejs-F8ULDF7S.jpg",
     "date": "March 15, 2017"
