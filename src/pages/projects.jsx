@@ -1,13 +1,14 @@
 import React from 'react';
 import ProjectCard from '../components/projectCard';
 import axios from 'axios';
+import Loader from '../components/loader';
 
 export default class Projects extends React.Component{
 
   constructor(props) {
     super(props);
     this.state = {
-      isLoading: true,
+      isLoaded: false,
       projects: []
     };
   }
@@ -15,11 +16,20 @@ export default class Projects extends React.Component{
   componentDidMount(){
     axios.get('/data/projects/data.json')
     .then(res => {
-        this.setState({ projects:res.data,isLoading: false });
+      let self = this;
+      setTimeout(() => {
+        self.setState({ 
+          projects:res.data,
+          isLoaded: true 
+        });
+      }, 800);
     });
   }
 
   render() {
+    if(!this.state.isLoaded)
+    return <Loader/>
+
     return (
       <>
         <header className="animated fadeInDown">
