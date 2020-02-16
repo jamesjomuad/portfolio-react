@@ -14,9 +14,7 @@ export default class Skills extends React.Component {
         </header>
 
         <div className="content fadeInUp animated">
-          <p>I'm a Full Stack Web developer with almost 8+ years of experience.</p>
-
-          <p>I have worked in different types of industries, but I focused on web application/software development. I am eager about knowing the latest technologies in software applications. And passionate on my works with the goal to make clients happy and satisfied. I have done 400 wordpress websites on the previous years. I take my inspiration and passion from my environments & colleague. I can bring things from nothing into something.</p>
+          <p>I build Web Application system like online booking, invoicing and ecommerce. I have worked in different types of industries, but I focused on web application/software development. Learning the latest technologies in writing software is my hobby. I'm passionate on my works with the goal to make clients happy and satisfied. I have done 800 websites on the previous years. I take my inspiration and passion from my environments & colleague. I can bring things from nothing into something.</p>
 
           <p>With a strong core skills in Nodejs, Laravel, Octobercms, and Wordpress. Developing applications to contribute to organisations betterment.</p>
 

@@ -96,7 +96,7 @@
             "Webmin",
             "MDB Bootstrap"
         ],
-        "description": "<p>Started from MDB Bootstrap theme, integrate the template into Octobercms system.</p><p>This website is for a startup company base in New Zealand.</p> <p>Project Url: <a href='http:// aeromarketingsolutions.com/' target='_blank'>aeromarketingsolutions.com</a></p>",
+        "description": "<p>Started from MDB Bootstrap theme, integrate the template into Octobercms system.</p><p>This website is for a startup company base in New Zealand.</p><p>I'm the server administrator on this project using Amazon Web Service.</p> <p>Project Url: <a href='http:// aeromarketingsolutions.com/' target='_blank'>aeromarketingsolutions.com</a></p>",
         "images": [
             "/data/projects/aeromarketingsolutions/a.jpg",
             "/data/projects/aeromarketingsolutions/b.jpg",
@@ -109,9 +109,8 @@
         "tags":[
             "Octobercms",
             "JQuery",
-            "Lightsail",
             "Laravel",
-            "Php"
+            "System"
         ],
         "url": "https://aeroparks.bookrr.io/",
         "description": "<p>A Web App parking management software. Using octobercms that is a laravel base framework. Integrates barcode reading and termal printer.</p> <p>This project is getting me excite along the way cause this kind of framework is what ive been looking for. It gained me knowledge and felt confident. Its principle is like wordpress but in new technology.</p>",
@@ -142,7 +141,8 @@
             "JQuery",
             "Javascript",
             "AWS",
-            "GIT"
+            "GIT",
+            "System"
         ],
         "url": "https://www.slycegateway.com",
         "description": "<p>SLYCE Gateway has a dashboard interface that provides merchants to control payment gateway access. This web application will enable users to run sales and refunds, view reports, and use several other ancillary tools.</p> <strong>Role & Responsibilities</strong> <ul> <li>Domain name setup</li> <li>Server Monitoring</li> <li>Server Setup</li> <li>Backend PHP/Laravel</li> <li>SQL Queries</li> <li>DB/Schema Structure</li> <li>Front-end Bootstrap, Javascript/JQuery</li> <li>Aws SES Setup</li> <li>Aws S3 Setup</li> <li>Git</li> </ul>",
@@ -179,7 +179,8 @@
             "JQuery",
             "Javascript",
             "AWS",
-            "GIT"
+            "GIT",
+            "System"
         ],
         "description": "<p>A Restful api service that create and send electronic invoices with pdf attachment & send secured link to customers. Customize with just a few clicks and get paid faster using payment page.</p><p>Project URL: <a href='https://email-invoice.com/' target='_blank'>email-invoice.com</a></p>",
         "images": [
@@ -196,7 +197,8 @@
             "JQuery",
             "Javascript",
             "AWS",
-            "GIT"
+            "GIT",
+            "System"
         ],
         "description": "A web application for managing merchant and customer transactions. Derived from Slyce Gateway. This is an Angular project using. But this project was put onhold without clear reasons from our client.",
         "images": [
@@ -383,6 +385,9 @@
             "/data/projects/biogas/side-b.jpg",
             "/data/projects/biogas/side-c.jpg",
             "/data/projects/biogas/side-d.jpg"
+        ],
+        "tags": [
+            "SketchUp"
         ]
     }
 ]

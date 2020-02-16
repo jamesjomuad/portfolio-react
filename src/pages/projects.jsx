@@ -40,8 +40,7 @@ export default class Projects extends React.Component{
           <div className="row d-flex flex-wrap">
             {
               this.state.projects.map((value, index) => {
-                let image = (typeof value.images == 'object') ? value.images[0] : false;
-                return <ProjectCard key={index} id={index} title={value.title} image={image} sale={value.sale}/>
+                return <ProjectCard key={index} data={value}/>
               })
             }
           </div>
