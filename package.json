@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/react-transition-group": "^4.2.3",
     "animated": "^0.2.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "html-react-parser": "^0.10.1",
     "jquery": "^3.4.1",
